@@ -1,0 +1,115 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e7f0f9;
+}
+
+.app {
+  background-color: whitesmoke;
+  width: 65%;
+  margin: 48px auto;
+  border: 1px solid #d0d0d0;
+  padding: 24px;
+  -webkit-box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0 0 20px 0;
+  font-weight: bold;
+}
+
+.converter {
+  display: flex;
+  align-items: flex-end;
+}
+
+.converter h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.converter > div:nth-child(1), 
+.converter > div:nth-child(2) {
+  margin-right: 16px;
+}
+
+input[type="text"] {
+  font-size: 20px;
+  width: 80%;
+  height: 34px;
+  box-sizing: border-box;
+  padding: 0 4px;
+}
+
+input[type="button"] {
+  border: 1px solid #c3d9fb;
+  font-size: 20px;
+  cursor: pointer;
+  height: 34px;
+  box-sizing: border-box;
+  background-color: #eff0f7;
+  -webkit-box-shadow: -1px 2px 8px -1px rgba(0,0,0,0.35);
+  -moz-box-shadow: -1px 2px 8px -1px rgba(0,0,0,0.35);
+  box-shadow: -1px 2px 8px -1px rgba(0,0,0,0.35);
+}
+
+input[type="button"]:active {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
